@@ -4,8 +4,10 @@ version: 0.0.1
 install_in_dependency_order: True
 
 channels:
-  - conda-forge
-  - defaults
+  - https://conda-static.anaconda.org/conda-forge
+  - https://conda-static.anaconda.org/anaconda
+
+write_condarc: true
 
 specs:
   - python 2.7*
@@ -15,4 +17,3 @@ specs:
   - fabric
   - robotframework
   - psutil
-

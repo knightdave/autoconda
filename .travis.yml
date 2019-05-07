@@ -4,6 +4,7 @@ script:
   - curl -o miniconda.sh https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
   - bash miniconda.sh -f -b -p "${HOME}/miniconda" && rm -f miniconda.sh
   - export PATH="${HOME}/miniconda/bin:$PATH"
+  - conda config --add channels conda-forge
   - conda install -y constructor
   - constructor .
   - rm -rf "${HOME}/miniconda"
