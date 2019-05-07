@@ -12,6 +12,7 @@ write_condarc: true
 specs:
   - python 2.7*
   - conda
+  - jinja2
   - ansible
   - awscli
   - fabric
