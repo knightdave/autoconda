@@ -12,3 +12,5 @@ script:
   - export PATH="${HOME}/miniconda/bin:$PATH"
   - ansible --version
 
+addons:
+  artifacts: true
