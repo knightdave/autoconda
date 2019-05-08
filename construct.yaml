@@ -10,6 +10,7 @@ channels:
 write_condarc: true
 keep_pkgs: true
 ignore_duplicate_files: true
+post_install: post_script.sh
 
 specs:
   - python 2.7*
