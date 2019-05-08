@@ -1,15 +1,13 @@
 name: autoconda
 version: 1.0
 
-install_in_dependency_order: True
+install_in_dependency_order: true
 
 channels:
   - https://conda-static.anaconda.org/conda-forge
   - https://conda-static.anaconda.org/anaconda
 
-write_condarc: true
 keep_pkgs: true
-ignore_duplicate_files: true
 post_install: post-script.sh
 
 specs:
