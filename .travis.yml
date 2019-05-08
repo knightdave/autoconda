@@ -15,4 +15,6 @@ script:
 addons:
   artifacts:
     paths:
-    - $(ls autoconda*.sh | tr "\n" ":")
+      - $(ls autoconda*.sh | tr "\n" ":")
+    target_paths:
+      - /autoconda
