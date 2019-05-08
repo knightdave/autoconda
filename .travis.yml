@@ -13,4 +13,6 @@ script:
   - ansible --version
 
 addons:
-  artifacts: true
+  artifacts:
+    paths:
+    - $(ls autoconda*.sh | tr "\n" ":")
