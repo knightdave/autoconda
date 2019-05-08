@@ -8,6 +8,8 @@ channels:
   - https://conda-static.anaconda.org/anaconda
 
 write_condarc: true
+keep_pkgs: true
+ignore_duplicate_files: true
 
 specs:
   - python 2.7*
@@ -18,3 +20,4 @@ specs:
   - fabric
   - robotframework
   - psutil
+  - conda-build
