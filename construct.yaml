@@ -10,15 +10,19 @@ channels:
 write_condarc: true
 keep_pkgs: true
 ignore_duplicate_files: true
-post_install: post_script.sh
+post_install: post-script.sh
 
 specs:
   - python 2.7*
   - conda
-  - jinja2
   - ansible
   - awscli
   - fabric
   - robotframework
   - psutil
+  - lxml
+  - pexpect
+  - ptyprocess
+  - jmespath
+  - boto
   - conda-build
