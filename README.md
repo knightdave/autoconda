@@ -6,6 +6,10 @@ Anaconda installer with build in automation tools
 - python 2.7*
 - conda
 - ansible
+- testinfra
+- molecule
+- pywinrm
+- docker-py
 - awscli
 - fabric
 - robotframework
